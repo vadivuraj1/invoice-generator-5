@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>INVOICE GENERATOR</h1S>
+        </div>
+    </header>
+   <main>
+    <section id="invoice">
+        <div class="main-invoice">
+            <div class="sub-invoice si1">    
+               <div class="child-invoice">
+                <div class="content-grid-box gb1">
+                    <h1>INVOICE</h1>
+                    <button class="inv-btn">Logo-click to Upload</button>
+                    <div class="sw2"><i  class="fa-regular fa-sun"></i>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                          </label>
+                          <i class="fa-regular fa-moon"></i>
+                          <span class="txt-aling"></span>
+                        </div>   
+                </div>
+                <div class="content-grid-box gb2 hh3">
+                    <h3>Bill From</h3>
+                    <form action="" class="bf-inputs">
+                        <div class="bill lables">
+                            <label for="lab" id="bf-label-f">Company:</label>
+                            <label for="lab" id="bf-label-f">Address:</label>
+                            <label for="lab" id="bf-label-f">Zip:</label>
+                            <label for="lab" id="bf-label-f">City:</label>
+                            <label for="lab" id="bf-label-f">Country:</label>
+                        </div>
+                        <div class="bill inputs">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Apple Incorportion">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Bennington Street 22">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. 234523">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Seattle">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. USA">
+                        </div>
+                    </form>
+                </div>
+                <div class="content-grid-box gb3 hh3">
+                    <h3>Bill TO</h3>
+                    <form action="" class="bf-inputs">
+                        <div class="bill lables">
+                            <label for="lab" id="bf-label-f">Company:</label>
+                            <label for="lab" id="bf-label-f">Address:</label>
+                            <label for="lab" id="bf-label-f">Zip:</label>
+                            <label for="lab" id="bf-label-f">City:</label>
+                            <label for="lab" id="bf-label-f">Country:</label>
+                        </div>
+                        <div class="bill inputs">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Apple Incorportion">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Bennington Street 22">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. 234523">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. Seattle">
+                            <input type="text" name="txt" id="in-txt" placeholder="  e.g. USA">
+                        </div>
+                    </form>
+                </div>
+                <div class="content-grid-box gb4">
+                    <h2>Custom fields<span>Add custom field</span></h2>
+                </div>
+                <div class="content-grid-box gb5">
+                    <form action="" class="bf-inputs">
+                        <div class="bill lables">
+                            <label for="lab" id="bf-label-f">Invoice Number:</label>
+                            <label for="lab" id="bf-label-f">Issued Date:</label>
+                            <label for="lab" id="bf-label-f">Due Date:</label>
+                        </div>
+                        <div class="bill inputs">
+                            <input type="text" name="txt" id="in-txt" placeholder="  Invoice number">
+                            <input type="date" name="txt" id="in-txt" placeholder="  Issued Date">
+                            <input type="date" name="txt" id="in-txt" placeholder="  Due Date">
+                        </div>
+                    </form>
+                </div>
+                <div class="content-grid-box gb6">
+                  <div class="lab-tit lt1">Item Name</div>
+                  <div class="lab-tit lt2">Qty</div>
+                  <div class="lab-tit lt3">Rate</div>
+                  <div class="lab-tit lt4">Line Total</div>
+                  <div class="lab-tit lt5">
+                    <input type="text" name="" id="lab-txt" class="item-box" placeholder="Item name">
+                  </div>
+                  <div class="lab-tit lt6">
+                    <input type="text" name="" id="lab-txt" placeholder="Qty">
+                  </div>
+                  <div class="lab-tit lt7">
+                    <input type="text" name="" id="lab-txt" placeholder="Rate">
+                  </div>
+                  <div class="lab-tit lt8">
+                    <input type="text" name="" id="lab-txt" placeholder="Total">
+                  </div>
+                  <div class="lab-tit lt9">
+                    <textarea name="" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="content-grid-box gb7">
+                    <div class="radio-input-box ri1">
+                        <div class="grid-radio-box">
+                            <h3>Notes</h3>
+                            <input type="text" name="" id="no-in">
+                            <h3>Terms</h3>
+                            <input type="text" name="" id="no-in">
+                        </div>
+                    
+                    </div>
+                    <div class="radio-input-box ri2">
+                        <div class="switch-btn sb1">
+                           <div class="sw">
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                              </label>
+                              <span class="txt-aling">Discount</span>
+                            </div>
+
+                            <div class="sw">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                  </label>
+                                  <span class="txt-aling">Tax</span>
+                                </div>
+
+                                <div class="sw">
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                      </label>
+                                      <span class="txt-aling">Shipping</span>
+                                    </div>
+                        </div>
+                        <div class="switch-btn sb2">
+                           <div class="sub-tot">
+                            <h1>Sub Total</h1>
+                            <h1>EUR10.00</h1>
+                            <h2>Shipping</h2>
+                            <input type="text" name="" id="eur" placeholder="EUR">
+                           </div>
+                           <div class="sub-tot st2">
+                            <h3 style="opacity: 0.7; font-size: 1rem;">Total Amount</h3>
+                            <h3 style="font-weight: 600;">EUR10</h3>
+                           </div>
+                        
+                        </div>
+                       
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="sub-invoice si2">
+                <div class="btn-groups">
+                    <button class="bg-btn bb1" style="background-color: white; border: 1px solid rgb(241, 228, 228); color: black; "><i class="fa-solid fa-plus"></i>New Invoice</button>
+                    <button class="bg-btn bb2" style="background-color: #ea580cff;"><i class="fa-solid fa-folder"></i>Save Invoice</button>
+                    <button class="bg-btn bb3" style="background-color: #312e81ff;"><i class="fa-regular fa-file-pdf"></i>Generate PDF Invoice</button>
+                    <button class="bg-btn bb4" style="background-color: #312e81ff;">Export</button>
+                    <button class="bg-btn bb5" style="background-color: #312e81ff;">Import</button>
+                    <button class="bg-btn bb6" style="background-color: white; border: 1px solid rgb(241, 228, 228); color: black;"><span class="sp">.</span>Missing a feature ?</button>
+                    <div class="bg-btn bb7">
+                        <h4 style="color: black;">Currency</h4>
+                        <select name="list" id="euro">
+                            <option value="DKK">DKK-Danish Krone</option>
+                            <option value="DOP">Dominican Peso</option>
+                            <option value="Dzd">Algerian Dinar</option>
+                            <option value="EGP">Egyptian Pound</option>
+                          </select>
+                    </div>
+                    <div class="bg-btn bb8">
+                        <h4 style="color: black;">Saved Invoices</h4>
+                        <button class="si-btn">No Saved Invoice Found.</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section id="para">
+    <div class="paragraph">
+        <div class="sub-para">
+            <div class="para1st">
+                <p class="parag ">You want to run your business running smoothly, right? Then you must keep your bills updated. A free invoice generator can be helpful in this situation.</p>
+                <p class="parag para-s">This invoice generator is free and privacy-based. Here are the features offered to you:</p>
+            </div>
+            <ul class="para-links">
+                <li><a href="">Define Sender and Recipient:</a></li>
+                <p class="parag para-h">The invoice generator allows users to input their information as the sender and recipient effortlessly. All crucial fields are included: Name, Address, City, and Country. If you need additional information like VAT number, email, etc., you can use custom fields for this.</p>
+                <li><a href="">Invoice Date and Due Date:</a></li>
+                <p class="parag para-h">Users can set the invoice and due dates, ensuring clarity and timeliness in payment expectations. This function helps with better money management and makes it less likely that payments will be late (hopefully :).</p>
+                <li><a href="">Local Storage and Privacy:</a></li>
+                <p class="parag para-h">Data privacy is paramount, and this invoice generator addresses this concern by saving the data in local storage. Users can confidently create and manage invoices, knowing their information is kept secure.</p>
+                <li><a href="">PDF Invoice Generation:</a></li>
+                <p class="parag para-h">The tool offers the ability to generate professional-looking PDF invoices. I'm currently working on additional templates for PDFs with different layouts.</p>
+                <li><a href="">Import and Export Support:</a></li>
+                <p class="parag para-h">The tool supports importing and exporting invoices in a simple text file format, making it convenient to transfer invoice data across platforms or keep backups of essential records.</p>
+                <li><a href="">Custom Fields and Notes:</a></li>
+                <p class="parag para-h">Users can include custom fields like VAT, bank information, and other relevant details. Additionally, fields for notes and terms allow for clear communication and additional information in the invoice.</p>
+                <li><a href="">Discounts, Taxes, and Shipping Prices:</a></li>
+                <p class="parag para-h">This invoice generator offers a complete invoicing solution by supporting shipping costs, taxes, and discounts. Both percentage and amount are supported.</p>
+                <li><a href="">Local Save and Load Functionality:</a></li>
+                <p class="parag para-h">By enabling users to save and load their invoices locally, the solution improves accessibility and gradually makes effective invoice administration easier.</p>
+                <li><a href="">Multi-Currency Support:</a></li>
+                 <p class="parag para-h">I included all world currencies to ensure that users from all over the world can utilize the tool. Now it's a flexible and universally applicable billing solution.</p>
+            </ul>
+        </div>
+    </div>
+ </section>
+ 
+   </main>
+   <footer>
+    <section id="invoice-footer">
+       <div class="main-foot">
+         <div class="grid-foot gff1">
+            <h1>Invoice Generator<span>|</span><span>@ 2023 by csaba Kissi</span></h1>
+         </div>
+         <div class="grid-foot gff2">
+            <ul class="soci-footer">
+                <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-globe"></i></a></li>
+            </ul>
+         </div>
+       </div>
+    </section>
+   </footer>
+</body>
+</html>
+   
